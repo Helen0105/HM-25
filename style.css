@@ -1,0 +1,47 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+ }
+
+.container{
+    width:1000px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.list{
+    position: relative;
+}
+
+
+.item:first-child{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(224, 99, 99, 0.97);
+    position: absolute;
+    top: 225px;
+    left: 200px;
+
+}
+
+.item:nth-child(2){
+    width: 100px;
+    height: 100px;
+    background-color: rgb(111, 15, 221);
+    position: absolute;
+    top: 290px;
+    left: 260px;
+    z-index: 1;
+}
+
+.item:last-child{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(41, 218, 41);
+    position: absolute;
+    top: 355px;
+    left: 320px;
+}
